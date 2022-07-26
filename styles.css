@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(69, 45, 0);;
+}
+#title{
+    text-align: center;
+    color: rgb(212, 197, 168);
+}
+#img-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 15px;
+}
+#image{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+#img-caption{
+    font-size: 12px;
+    font-weight: bolder;
+    margin-top: 1em;
+    color: rgb(212, 197, 168);
+}
+#tribute-info{
+    padding: 0 4vw;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(212, 197, 168);
+}
+p{
+    text-align: center;
+    font: italic normal 400 normal 12px/normal 'Lucida Sans', sans-serif;
+    margin-top: 27px;
+}
+p, p a{
+    color: rgb(212, 197, 168);
+}
